@@ -21,7 +21,7 @@ docker run -d \
 
 ```
 services:
-  nextemby:
+  miniwiki:
     image: nextemby/miniwiki:latest
     container_name: miniwiki
     restart: unless-stopped
